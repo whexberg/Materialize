@@ -1,0 +1,39 @@
+body {
+    overflow-y: scroll;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+table a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+p {
+	padding: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  align-self: center;
+  /*flex-basis: 1;*/
+}
+
+.flex-item-top {
+  align-self: flex-start;
+}
+
+.flex-item-bottom {
+  align-self: flex-end;
+}
